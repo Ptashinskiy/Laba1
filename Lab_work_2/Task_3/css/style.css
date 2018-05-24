@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #80cdc6;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 800px;
+	max-height: 630px;
+}
+
+.clouds, .water, .world, .ship {
+	position: relative;
+}
+
+.clouds {
+	max-width: 450px;
+	top: -10px;
+	left: 340px;
+}
+
+.world, .water {
+	max-width: 800px;
+}
+
+.ship {
+	max-width: 180px;
+	left: 20px;
+	bottom: 258px;
+}
+
+.world {
+	bottom: 51px;
+}
+
+.water {
+	bottom: 278px;
+}
