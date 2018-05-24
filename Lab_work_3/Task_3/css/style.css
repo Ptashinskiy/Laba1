@@ -1,0 +1,75 @@
+* {
+	font-family: Arial, sans;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../img/body-bg.png");
+	background-repeat: repeat-x;
+}
+
+header {
+	position: relative;
+	max-width: 950px;
+	margin: auto;
+
+}
+
+header img {
+	position: absolute;
+	min-width: 280px;
+	width: 100%;
+	top: 35px;
+
+}
+
+.tabs {
+	position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: 130px;
+    z-index: 100;
+}
+
+.tabs input {
+	max-height: 20px;
+	display: none;
+}
+
+.tabs label {
+	background: #f9f9f9;
+	border-radius: .25em .25em 0 0;
+	color: #000	;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	height: 2.5em;
+	line-height: 2.5em;
+	margin-right: .25em;
+	padding: 0 1em;
+	text-align: center;
+}
+
+.tabs input:hover + label {
+	background: #f1f1f1;
+	color: #000;
+}
+
+.tabs input:checked + label {
+	background: #ddd;
+	color: #000;
+	position: relative;
+	z-index: 6;
+}
+  #content {
+    background: #f1f1f1;
+    border-radius: 0 .25em .25em .25em;
+    min-height: 3px;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    top: 35px;
+  }

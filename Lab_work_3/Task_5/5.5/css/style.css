@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url("../img/background.png");
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 700px;
+    font-family: Arial, sans-serif;  
+}
+
+thead th {
+    padding: 15px;
+    color: #fff;
+    background: rgb(33,39,42);
+    font-weight: normal;
+    border-left: 1px solid black;
+}
+
+thead th:empty {
+    background: transparent;
+    border: none;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.02, rgb(240,240,240)),
+        color-stop(0.87, rgb(230, 230, 230))
+        );
+    color:black;
+    border-top: 1px solid rgb(208,208,208);
+    border-left: 1px solid rgb(208,208,208);
+}
+
+tbody th {
+  padding: 15px;
+    color: #fff;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(209,67,57)),
+        color-stop(0.87, rgb(227, 83, 71))
+        );
+    font-weight: normal;
+    border-top: 1px solid rgb(246, 102, 89);
+}
+
+button {
+    background: rgb(209,67,57);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 90px;
+    height: 30px;
+}

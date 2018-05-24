@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.full {
+	overflow: hidden;
+}
+
+table {
+	width: 186px;
+	float: left;
+	margin: 10px;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px; 
+}
+
+.tiny {
+	border: 2px solid #16a183;
+	border-bottom: 8px solid #16a183;
+}
+
+.small {
+	border: 2px solid #f29811;
+	border-bottom: 8px solid #f29811;
+}
+
+.medium {
+	border: 2px solid #bf392a;
+	border-bottom: 8px solid #bf392a;
+}
+
+span {
+	font-weight: bold;
+	font-family: #586d73;
+}
+
+.price {
+	color: #fff;
+	font-size: 25px;
+	height: 50px;
+}
+
+.greenP {
+	background: #16a183;
+}
+
+.orangeP {
+	background: #f29811;
+}
+
+.redP {
+	background: #bf392a;
+}
+
+.size {
+	font-size: 20px;
+	color: #fff;
+	height: 40px;
+	font-weight: normal;
+}
+
+.greenS {
+	background: #16a183;
+	border-bottom: 8px solid #139176;
+}
+
+.orangeS {
+	background: #f29811;
+	border-bottom: 8px solid #cc8108;
+}
+
+.redS {
+	background: #bf392a;
+	border-bottom: 8px solid #9c2f21;
+}
+
+td {
+	height: 30px;
+	color: gray;
+}
+
+.btn {
+	height: 86px;
+}
+
+.greenBtn, .orangeBtn, .redBtn {
+	text-transform: uppercase; 
+	width:120px;
+	height:40px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+}
+
+.greenBtn {
+	background: #16a183;
+}
+
+.orangeBtn {
+	background: #f29811;
+}
+
+.redBtn {
+	background: #bf392a;
+}
+
+hr {
+	width: 160px;
+	margin: auto;
+	border: 0.5px dashed gray;
+}
+
+.line {
+	height: 0;
+}

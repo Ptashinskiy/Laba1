@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+table {
+    font-size: 16px;
+    font-weight: bold;
+    border-collapse:separate;
+    margin: auto;
+    margin-top: 20px;
+}
+thead th{
+    padding:15px;
+    color:#fff;
+    border-bottom:3px solid #9ED929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+thead th:empty{
+    background:transparent;
+    border:none;
+}
+tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+}
+tfoot th{
+    color:#666;
+}
+
+tbody td{
+    padding:12px;
+    text-align:center;
+    background-color:#DEF3CA;
+    color:#666;
+}
+
+tbody th{
+  padding:15px;
+    color:#fff;
+    border-right:3px solid #9ED929;
+    background:-webkit-gradient(
+        linear,
+        right bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+.check td::before{
+    content : url(../img/ok.png);
+}
