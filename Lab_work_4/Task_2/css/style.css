@@ -1,0 +1,153 @@
+body {
+	background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	background-attachment: fixed;
+	background-color: #FFF;
+	background-image: url(../img/strip.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+}
+
+.wrapper {
+	width: 960px;  
+	background-image:url(../img/header-bg.png);
+	background-repeat:repeat-x;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px;
+	background-color: #FFFFFF;
+	margin: 25px auto; 
+	border: 1px solid #000000;
+	text-align: left;
+}
+
+.header {
+	height:120px;
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+}
+
+.header img {
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	height: 100px;
+	width: 300px;
+}
+
+h1 {
+	line-height:150%;
+}
+
+.contacts {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  float: right;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.contacts p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#contactsCont_1 {
+	width: 180px;
+	float: left;
+	padding-right: 20px;
+}
+
+#contactsCont_2 {
+	width: 200px;
+	float: left;
+}
+
+.content {
+	width: 680px;
+	padding: 0 20px; 
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.image img {
+	width: 300px;
+	margin: 15px;
+	border-radius: 10px;
+	border: 5px solid #00698c;
+}
+
+.imageBig img {
+	width: 600px;
+	margin: 15px;
+	border-radius: 10px;
+	border: 5px solid #00698c;
+}
+
+.sidebar {
+	float: left;
+	width: 200px;
+	padding: 15px 10px 15px 20px;
+}
+
+.sidebar a {
+	color: #000000;
+}
+
+.sidebar a:hover {
+	text-decoration: underline;
+}
+
+.sidebar #h3 {
+	margin-top: 40px; 
+}
+
+.sidebar #a_red {
+	color: red;
+}
+.sidebar ul {
+	margin: 0;
+	padding-left: 20px;
+	line-height: 150%;
+}
+
+.sidebar ul li {
+	margin: 10px 0;
+}
+
+.sidebar ul li a {
+	color: #000000;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+footer {
+	padding: 0 10px 0 20px; 
+	background:#DDDDDD; 
+	height:90px;
+}
+
+footer p {
+	margin: 0;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
